@@ -1,4 +1,4 @@
-package com.concretepage.dao;
+package com.gilcom.dao;
 import java.util.List;
 
 import javax.persistence.EntityManager;
@@ -7,7 +7,7 @@ import javax.persistence.PersistenceContext;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.concretepage.entity.Article;
+import com.gilcom.entity.Article;
 @Transactional
 @Repository
 public class ArticleDAO implements IArticleDAO {

@@ -1,4 +1,4 @@
-package com.concretepage.endpoint;
+package com.gilcom.endpoint;
 
 import java.net.URI;
 import java.util.List;
@@ -20,8 +20,8 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import com.concretepage.entity.Article;
-import com.concretepage.service.IArticleService;
+import com.gilcom.entity.Article;
+import com.gilcom.service.IArticleService;
 
 @Component
 @Path("/article")

@@ -1,4 +1,4 @@
-package com.concretepage.filter;
+package com.gilcom.filter;
 import java.io.IOException;
 
 import javax.servlet.Filter;

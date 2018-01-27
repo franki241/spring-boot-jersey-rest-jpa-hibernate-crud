@@ -1,8 +1,8 @@
-package com.concretepage.service;
+package com.gilcom.service;
 
 import java.util.List;
 
-import com.concretepage.entity.Article;
+import com.gilcom.entity.Article;
 
 public interface IArticleService {
      List<Article> getAllArticles();
